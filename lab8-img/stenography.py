@@ -102,7 +102,7 @@ def from_bits(bits):
 
 
 if __name__ == '__main__':
-    original = io.imread('novoice.jpeg')
+    original = io.imread('lenin.jpeg')
     message = to_bits("Voice gone cannot speak")
 
     changed = embed_message(original, message)
