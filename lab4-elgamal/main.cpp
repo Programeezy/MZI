@@ -167,7 +167,7 @@ int main() {
     string plainText;
 
     ifstream inFile;
-    inFile.open("../input.txt");
+    inFile.open("../data.txt");
     stringstream strStream;
     strStream << inFile.rdbuf();
     plainText = strStream.str();
